@@ -187,7 +187,6 @@ elif [[ "$lowMemMode" == "1" ]]; then
 	echo ""
 else
 	apk update
-	apk add bind-tools curl e2fsprogs grub lsblk lsof net-tools util-linux vim wget
 fi
 
 # Make a blank motd to avoid Alpine Linux writes a new one.
